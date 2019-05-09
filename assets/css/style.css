@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: gray;
+    padding: 24px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.totals {
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: 250px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    color: grey;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+}
+
+.side {
+    background: gray;
+    color: white;
+    font-size: 18px;
+    padding: 5px 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#p1-label {
+    position: absolute;
+    top: 18px;
+    left: -60px;
+
+}
+
+#p2-label {
+   position: absolute;
+   top: 18px;
+   right: -60px;
+}
+
+.result {
+    font-size: 30px;
+    color: grey;
+}
+
+.result > p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choose {
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.choose:hover {
+    cursor: pointer;
+    background: grey;
+}
+
+#commence {
+    text-align: center;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
